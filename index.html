@@ -44,6 +44,7 @@
 			cursor: pointer;
 		}
 		canvas { width: 205px !important; height: 205px !important; }
+		button.small-btn { height: 26px; padding: 0 10px; font-size: 14px; line-height: 24px; border-radius: 6px; margin: 2px; vertical-align: middle; }
 		span, input[type='checkbox'] { user-select: none; cursor: pointer; }
 		span { display: inline-block; vertical-align: middle; line-height: normal; margin-top: -10px; }
 		textarea { width: 80%; height: 60%; }
@@ -217,8 +218,8 @@
 			<select id="selectDeck" onchange="selectDeck();">
 				<option value="">--Select Deck--</option>
 			</select>
-			<button style="height: 20px;" onclick="hideInfo(); openCodeWindow();">Add</button>
-			<button style="height: 20px;" onclick="hideInfo(); deletedecklist();">Delete</button>
+			<button class="small-btn" onclick="hideInfo(); openCodeWindow();">Add</button>
+			<button class="small-btn" onclick="hideInfo(); deletedecklist();">Delete</button>
 		</span>
 
 		<table width="1850px" style="margin-top: 56px;">
